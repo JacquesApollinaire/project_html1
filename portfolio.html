@@ -8,18 +8,21 @@
     <h1 id="haut">Bienvenue sur Martin Luther King TIMELINE</h1>
 
     <a href="#bas">Aller en bas</a> <br><br>
-     
 
+    <link rel="stylesheet" href="style.css">
+     
     </head>
 
 
 <body>
     <header>
-        <a href="#home">Home</a>|
-        <a href="#about">About</a>|
-        <a href="#work">Work</a>|
-        <a href="#resume">Resume</a>|
+        <nav>
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#work">Work</a>
+        <a href="#resume">Resume</a>
         <a href="#contact">Contact</a>
+        </nav>
         
     </header>
 
@@ -32,6 +35,9 @@
             <audio controls>
             <source src="./audio/speech.mp3" type="audio/mpeg">
             </audio> 
+            <video width="300" height="100" autoplay muted loop controls>
+                   <source src="./videos/voir.mp4" type="video/mp4">
+            </video> 
 <!--Lien local-->
             <h5>Visitez la <a href="community.html">COMMUNAUTE</a> de Martin Luther King Jr.  fut l'un des dirigeants les plus influents du mouvement 
                 américain des droits civiques. À travers ses discours, il défendait l'égalité, la justice
@@ -41,7 +47,9 @@
                 seraient jugées selon leur caractère plutôt que selon la couleur de leur peau.
                 Ses paroles continuent d'inspirer le monde entier dans la lutte pour les droits
                 humains et la justice sociale.
-            </h5> 
+            </h5>
+
+           
         </section>
 
         <section id="about">
@@ -63,6 +71,7 @@
             <img src="./images/luther3.jpg" alt="Martin Luther" width="200">
              <img src="./images/luther4.jpg" alt="Martin Luther" width="200">
             <img src="./images/luther5.jpg" alt="Martin Luther" width="200">
+             
         </section>
 
         <section id="work">
@@ -93,7 +102,7 @@
                  plus juste et sans discrimination raciale.</p>
             <h4>Resume de parcours</h4>
 <!--liste-->
-            <ul>
+            <ul class="liste_parcours">
                 <li>Pasteur baptiste</li>
                 <li>Theologien</li>
                 <li>Orateur public</li>
@@ -103,6 +112,7 @@
                 <li>Defenseur de la non-violence</li>
                 <li>Laureat du prix Nobel de la paix</li>
             </ul>
+            
 <!--Lien externe-->
             <p>Consultez la Communauté <a href="https://thekingcenter.org/">THE KING CENTER</a> pour plus d'information </p>   
         </section>
